@@ -3,7 +3,7 @@ At a midpoint in my expressPay internship, I was tasked with building a project 
 provided that it utilized one of the Firm's APIs. After a bit of brainstorming, I landed on this
 simple game inspired by Rock Paper Scissors, where you can conveniently buy more lives with the
 Tokenization API. Security wasn't a priority in this project like it was in my subsequent final project.
-## How it work
+## How it workS
 - Enter in login details as these are required for the Tokenization API to work. These are saved in the server session until reset.
 - Then you just select your weapon and fight against the 15 enemies. It's designed so that you're likely to die at least twice before
   beating all 15 enemies, though if you get through unscathed congrats! 
@@ -11,6 +11,7 @@ Tokenization API. Security wasn't a priority in this project like it was in my s
   you will be sent back with an extra three lives. The next time you die, you can simply pay for the new lives with one click.
 - The Tokenization API creates a unique cctoken when new card details are inputed. My program saves this unique cctoken as a cookie in
   the browser and so it can facilitate automatic payment without redirected to expressPay to re-enter card details.
+- Note how it's rather insecure to store the cctoken in the browser as a cookie. Take a look at my subsequent project to see how I handle this more securely
 
   
 
