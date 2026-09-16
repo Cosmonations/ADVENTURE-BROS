@@ -6,8 +6,8 @@ $orderId = $_GET['order-id'] ?? null;
 
 if (!empty($token) && !empty($orderId)) {
     
-    $merchantId = '042624216522'; 
-    $apiKey     = 'u7HL2aenabmiiPcL96czt-sXU0wvcqfTMwQVmw6kUx-u7RdFILFvNBeFG7foKsO-x6MJarUsaH768pZP68A';   
+    $merchantId = 'MERCHANT ID'; 
+    $apiKey     = 'API KEY';   
 
     $queryPayload = [
         'merchant-id' => $merchantId,
