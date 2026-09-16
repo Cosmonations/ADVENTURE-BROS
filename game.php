@@ -16,8 +16,8 @@ $message = "Enemy " . $_SESSION['current_enemy'] . " blocks your path. Choose yo
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['auto_pay']) && $savedToken) {
     
-    $merchantId = 'MERCHANT ID'; 
-    $apiKey     = 'API';   
+    $merchantId = '042624216522'; 
+    $apiKey     = 'u7HL2aenabmiiPcL96czt-sXU0wvcqfTMwQVmw6kUx-u7RdFILFvNBeFG7foKsO-x6MJarUsaH768pZP68A';   
     
     $orderId = "AUTO_" . time() . "_" . rand(100, 999);
 

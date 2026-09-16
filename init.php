@@ -5,8 +5,8 @@ if (!isset($_SESSION['first_name'])) {
     die("User session not found. Please log in first.");
 }
 
-$merchantId = 'MERCHANT ID'; 
-$apiKey     = 'API';   
+$merchantId = '042624216522'; 
+$apiKey     = 'u7HL2aenabmiiPcL96czt-sXU0wvcqfTMwQVmw6kUx-u7RdFILFvNBeFG7foKsO-x6MJarUsaH768pZP68A';   
 
 $orderId = "ORD_" . time() . "_" . rand(100, 999);
 $returnUrl = "http://localhost:8000/www/return.php";
